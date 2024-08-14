@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: xarm_smd_ros
+Description: Description of xarm_smd_ros
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs message_runtime
