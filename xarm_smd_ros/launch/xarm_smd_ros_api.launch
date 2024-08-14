@@ -1,0 +1,8 @@
+<launch>
+     <node name="nodo_central"    pkg="xarm_smd_ros"  type="nodo_central.py"    output="screen" />
+     <node name="srv_configurar_xarm"    pkg="xarm_smd_ros"  type="srv_configurar_xarm.py"    output="screen" />
+     <node name="srv_go_home"    pkg="xarm_smd_ros"  type="srv_go_home.py"    output="screen" />
+     <node name="srv_move_line"    pkg="xarm_smd_ros"  type="srv_move_line.py"    output="screen" />
+     <node name="srv_pinza_vacio"    pkg="xarm_smd_ros"  type="srv_pinza_vacio.py"    output="screen" />
+     <node name="pruena_nodo_cam"    pkg="xarm_smd_ros"  type="prueba_nodo_cam.py"    output="screen" />
+</launch>

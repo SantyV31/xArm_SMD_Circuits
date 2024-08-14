@@ -1,0 +1,8 @@
+<launch>
+     <node name="nodo_central"    pkg="xarm_smd_ros"  type="xplan_nodo_central.py"    output="screen" />
+     <node name="camera_stream"    pkg="xarm_smd_ros"  type="xplan_nodo_camara.py"    />
+     <node name="move_pose_plan"    pkg="xarm_smd_ros"  type="xplan_pose_plan.py"    output="screen" />
+     <node name="configurar_xarm"    pkg="xarm_smd_ros"  type="xplan_configurar.py"    output="screen" />
+     <node name="go_home"    pkg="xarm_smd_ros"  type="xplan_go_home.py"    output="screen" />
+     <node name="pinza_vacio"    pkg="xarm_smd_ros"  type="xplan_pinza_vacio.py"    output="screen" />
+</launch>
